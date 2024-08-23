@@ -1,1 +1,1 @@
-const User = require("./index")
+const User = require("./User")
