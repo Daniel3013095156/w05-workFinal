@@ -25,8 +25,8 @@ const update = catchError(async(req, res) => {
     //que no se actulice email y password
 
     delete req.body.password
-    delete reqemail.email
-    delete reqemail.phone
+    delete req.email.email
+    delete req.email.phone
 
     const result = await User.update(
         req.body,
