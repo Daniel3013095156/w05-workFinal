@@ -66,5 +66,4 @@ test("POST -> 'BASE_URL/LOGIN', should return status code 200, and res body.user
         .post(`${BASE_URL/login}`)
         .send(user)
 
-        
 })
